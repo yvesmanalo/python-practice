@@ -29,7 +29,7 @@ print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")
 #tab and newline combine
 print("Languages\n\tPython\n\tC\n\tJavaScript")
-'''
+
 
 #stripping whitespaces
 #temporarily remove
@@ -47,3 +47,8 @@ print(favorite_language)
 favorite_language = " python "
 favorite_language = favorite_language.strip()
 print(favorite_language)
+'''
+
+#syntax error
+#message='One of Python's strengths is its diverse community.'  ---not valid python code
+#print(message)

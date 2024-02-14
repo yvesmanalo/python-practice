@@ -9,9 +9,10 @@ message.
 Then change the value of your variable to a new message, and print the new 
 message.
 '''
-
+#2-1
 message="Good day everyone!"
 print(message)
 
+#2-2
 message="Good day to you!"
 print(message)
