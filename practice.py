@@ -109,7 +109,7 @@ print(message)
 #         name_of_list.remove(value)
 #     You can also use the remove() method to work with a value that’s being removed from a list.
 #     The remove() method deletes only the first occurrence of the value you specify. If there’s a possibility the value appears more than once in the list, you’ll need to use a # #     loop to determine if all occurrences of the value have been removed
-'''
+
 
 #Organizing a List
 #     Sorting a List Permanently with the sort() Method
@@ -133,6 +133,24 @@ print(message)
 #           len() function
 #           len(name_of_list)
 #     Python counts the items in a list starting with one, so you shouldn’t run into any off by-one errors when determining the length of a list.
+'''
+
+#Avoiding Index Errors When Working with Lists
+#     An index error means Python can’t figure out the index you requested. If an index error occurs in your program, try adjusting the index you’re asking for by one.
+#     Keep in mind that whenever you want to access the last item in a list you use the index -1
+#             name_of_list[-1] --> last item in the list
+#     If an index error occurs and you can’t figure out how to resolve it, try printing your list or just printing the length of your list. Your list might look much different than #     you thought it did, especially if it has been managed dynamically by your program. Seeing the actual list, or the exact number of items in your list, can help you sort out #     such logical errors.
+
+#Working with Lists
+#Looping Through an Entire List
+#     When you want to do the same action with every item in a list, you can use Python’s for loop.
+#     for items in name_of_lists:
+#          print(items)
+#Doing Something after a "for" Loop
+#     Any lines of code after the for loop that are not indented are executed once without repetition.
+#     for items in name_of_lists:
+#          print(items)
+#     print("this will be printed after looping in the items in name_of_lists")
 
 
 
