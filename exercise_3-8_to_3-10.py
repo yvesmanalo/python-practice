@@ -44,5 +44,13 @@ print('\n')
 #3-8
 guess_list = ["Lester","Erico","Olga"]
 print(len(guess_list))
+print('\n')
+
+#3-10
+pokemon_list=['Bulbasaur','Charmander','Squirtle']
+print(sorted(pokemon_list))
+print(sorted(pokemon_list,reverse=True))
+print(len(pokemon_list))
+
 
 
