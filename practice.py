@@ -133,7 +133,7 @@ print(message)
 #           len() function
 #           len(name_of_list)
 #     Python counts the items in a list starting with one, so you shouldn’t run into any off by-one errors when determining the length of a list.
-'''
+
 
 #Avoiding Index Errors When Working with Lists
 #     An index error means Python can’t figure out the index you requested. If an index error occurs in your program, try adjusting the index you’re asking for by one.
@@ -151,7 +151,21 @@ print(message)
 #     for items in name_of_lists:
 #          print(items)
 #     print("this will be printed after looping in the items in name_of_lists")
+'''
 
+#Making Numerical Lists
+#Using the range() Function
+#     The range() function causes Python to start counting at the first value you give it, and it stops when it reaches the second value you provide. Because it stops at that
+#     second value, the output never contains the end value
+#     If your output is different than what you expect when you’re using range(), try adjusting your end value by 1.
+#Using range() to Make a List of Numbers
+#     If you want to make a list of numbers, you can convert the results of range() directly into a list using the list() function. When you wrap list() around a call to the 
+#     range() function, the output will be a list of numbers
+#             numbers = list(range(1,6))
+#             print(numbers)
+#             output ----> [1, 2, 3, 4, 5]
+#     We can also use the range() function to tell Python to skip numbers in a given range.
+#      
 
 
 
